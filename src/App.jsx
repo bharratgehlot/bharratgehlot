@@ -14,7 +14,7 @@ function App() {
       <p className="read-the-docs">
         27 / React Dev / Mindcoder
       </p>
-      <p>This website uses react and only react. </p>
+      <p>This website uses react and only react. Thankyou</p>
     </>
   )
 }
