@@ -1,7 +1,18 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import './index.css'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [currentTime, setCurrentTime] = useState(new Date())
+
+  useEffect( () => {
+    const interval = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000 )
+    return () => clearInterval(interval)
+  }, []);
+
 
   return (
     <>
@@ -9,14 +20,15 @@ function App() {
         <h3>BHARRAT GEHLOT</h3>
         <h1>Monster Coder</h1>
       </div>
-      
-      
-      <p className="read-the-docs">
-        27 / React Dev / Mindcoder
-      </p>
+
+      <div className='currentTime'>
+        <h2>Added on 22-12-2025</h2>
+        <p>Current Time: {currentTime.toLocaleString()}</p>
+      </div>
+      <p className="read-the-docs">27 / React Dev / Mindcoder</p>
       <p>This website uses react and only react. Thankyou</p>
     </>
-  )
+  );
 }
 
 export default App
