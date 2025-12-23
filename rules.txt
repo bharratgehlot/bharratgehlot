@@ -1,3 +1,9 @@
 Write whole website word by word.
 No copy paste.
 Minimum AI Usage
+
+Flow: npm run build
+      git add .
+      git commit
+      git push origin main
+      npm run deploy

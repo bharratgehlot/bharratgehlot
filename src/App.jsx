@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './index.css'
+import List from './List';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       </div>
       <p className="read-the-docs">27 / React Dev / Mindcoder</p>
       <p>This website uses react and only react. Thankyou</p>
+      <List></List>
     </>
   );
 }
