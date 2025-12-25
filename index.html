@@ -7,7 +7,9 @@
     <title>
       Bharrat Gehlot - An React Devloper with deeper experise in Frontend
     </title>
-    <!-- Google tag (gtag.js) -->
+
+    <!-- Google tag (gtag.js) Old 
+     // To be removed later
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-JZH7NXRT7Y"
@@ -20,6 +22,24 @@
       gtag("js", new Date());
 
       gtag("config", "G-JZH7NXRT7Y");
+    </script>
+    -->
+
+    <!-- Google tag (gtag.js) New -->
+    <script>
+      if (location.hostname !== "localhost") {
+        var s = document.createElement("script");
+        s.async = true;
+        s.src = "https://www.googletagmanager.com/gtag/js?id=G-JZH7NXRT7Y";
+        document.head.appendChild(s);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-JZH7NXRT7Y");
+      }
     </script>
   </head>
   <body>

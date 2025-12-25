@@ -26,7 +26,7 @@ function App() {
         <h2>Added on 22-12-2025</h2>
         <p>Current Time: {currentTime.toLocaleString()}</p>
       </div>
-      <p className="read-the-docs">27 / React Dev / Mindcoder</p>
+      <p>27 / React Dev / Mindcoder</p>
       <p>This website uses react and only react. Thankyou</p>
       <List></List>
     </>

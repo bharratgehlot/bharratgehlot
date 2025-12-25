@@ -7,3 +7,12 @@ Flow: npm run build
       git commit
       git push origin main
       npm run deploy
+
+New Ideas:
+  1. Day logs
+  2. Blogs
+  3. Projects/Portfolio
+  4. Certifications
+  5. Contact Info
+  6. Download CV
+  7. Availability      
