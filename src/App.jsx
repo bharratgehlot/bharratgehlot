@@ -1,36 +1,20 @@
-import { useState, useEffect } from 'react'
-import './index.css'
-import List from './List';
-
+import "./index.css";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./HomePage";
+import BlogPage_1 from "./BlogPage_1";
+import BlogPage_2 from "./BlogPage_2";
 
 function App() {
-
-  const [currentTime, setCurrentTime] = useState(new Date())
-
-  useEffect( () => {
-    const interval = setInterval(() => {
-      setCurrentTime(new Date());
-    }, 1000 )
-    return () => clearInterval(interval)
-  }, []);
-
-
+  
   return (
     <>
-      <div>
-        <h3>BHARRAT GEHLOT</h3>
-        <h1>Monster Coder</h1>
-      </div>
-
-      <div className='currentTime'>
-        <h2>Added on 22-12-2025</h2>
-        <p>Current Time: {currentTime.toLocaleString()}</p>
-      </div>
-      <p>27 / React Dev / Mindcoder</p>
-      <p>This website uses react and only react. Thankyou</p>
-      <List></List>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/blog-page_1" element={<BlogPage_1 />} />
+        <Route path="/blog-page_2" element={<BlogPage_2 />} />
+      </Routes>
     </>
   );
 }
 
-export default App
+export default App;
