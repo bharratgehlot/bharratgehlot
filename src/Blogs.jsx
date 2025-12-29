@@ -8,6 +8,8 @@ function Blogs(){
       <Link to="/blog-page_1">Read here</Link>
       <h2>Blog 2: Why eating Samosa is a Bad for health</h2>
       <Link to="/blog-page_2">Read here</Link>
+      <h2>Blog 3: Today I Dedustified my PC </h2>
+      <Link to="/blog-page_3">Read here</Link>
     </div>
   );
 }
