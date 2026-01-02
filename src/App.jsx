@@ -4,6 +4,7 @@ import HomePage from "./HomePage";
 import BlogPage_1 from "./BlogPage_1";
 import BlogPage_2 from "./BlogPage_2";
 import BlogPage_3 from "./BlogPage_3";
+import BlogPage_4 from "./BlogPage_4";
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
         <Route path="/blog-page_1" element={<BlogPage_1 />} />
         <Route path="/blog-page_2" element={<BlogPage_2 />} />
         <Route path="/blog-page_3" element={<BlogPage_3 />} />
+        <Route path="/blog-page_4" element={<BlogPage_4 />} />
       </Routes>
     </>
   );

@@ -10,6 +10,8 @@ function Blogs(){
       <Link to="/blog-page_2">Read here</Link>
       <h2>Blog 3: Today I Dedustified my PC </h2>
       <Link to="/blog-page_3">Read here</Link>
+      <h2>Blog 4: Mandsaur University - Brutally Honest Review </h2>
+      <Link to="/blog-page_4">Read here</Link>
     </div>
   );
 }
