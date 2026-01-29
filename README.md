@@ -1,11 +1,11 @@
 # BHARRAT GEHLOT
 
-Hi, As a frontend developer I love to create and connet with people, find solutions for their probelm, and help them achieve better result.
+Hi, As a frontend developer I love to create and connect with people, find solutions for their probelm, and help them achieve better result.
 
 ## Who Iam?
 
-Monster Coder
+Frontend Developer (www.bharratgehlot.com)
 
 ## What is this ?
 
-You are looking at my website code
+GitHub Profile
