@@ -8,5 +8,4 @@ Frontend Developer (www.bharratgehlot.com)
 
 ## How to reach me? ?
 
-
-drop me a quick message on LinkedIn (https://www.linkedin.com/in/bharatgehlot)
+Drop me a quick message on LinkedIn (https://www.linkedin.com/in/bharatgehlot)
