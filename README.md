@@ -6,6 +6,7 @@ Hi, As a frontend developer I love to create and connect with people, find solut
 
 Frontend Developer (www.bharratgehlot.com)
 
-## What is this ?
+## How to reach me? ?
 
-GitHub Profile
+
+drop me a quick message on LinkedIn (https://www.linkedin.com/in/bharatgehlot)
